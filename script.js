@@ -22,7 +22,7 @@ if (juego1 === respuesta1) {
 alert ("JUEGO DOS")
 let respuesta2= "3"
 do{
-    juego2 = prompt("¿CUANTOS SON LOS COLORS PRIMARIOS? \nTE QUEDAN " + intentos2 + " INTENTOS")
+    juego2 = prompt("¿CUANTOS SON LOS COLORES PRIMARIOS? \nTE QUEDAN " + intentos2 + " INTENTOS")
     intentos2--
 }while (juego2 !== respuesta2 && intentos2 >0)
    
@@ -36,7 +36,7 @@ if (juego2 === respuesta2){
 alert ("JUEGO TRES")
 let respuesta3 ="arroz" .toLowerCase()
 do{
-    juego3 = prompt("NOMBRE DE UN ALIMENTO QUE EMPIEZE Y TERMINE CON \nLAS LETRA DEL ABECEDARIO (A-Z)  \nTE QUEDAN " + intentos3 + " INTENTOS")
+    juego3 = prompt("NOMBRE DE UN ALIMENTO QUE EMPIECE Y TERMINE CON \nLAS LETRA DEL ABECEDARIO (A-Z)  \nTE QUEDAN " + intentos3 + " INTENTOS")
     intentos3--
 }while (juego3 !== respuesta3 && intentos3 >0)
    
